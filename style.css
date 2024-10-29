@@ -239,3 +239,9 @@ input:checked ~ .bubble::after {
     }
 
 }
+
+@media (width < 400px) {
+    .todo-item .actions {
+        margin-left: -105%;
+    }
+}
