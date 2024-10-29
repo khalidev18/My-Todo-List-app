@@ -225,3 +225,17 @@ input:checked ~ .bubble::after {
     text-decoration: line-through;
     color: var(--grey);
 }
+
+@media (width < 500px) {
+    .todo-list .list {
+        margin: 0%;
+    }
+    /* .todo-list .list {
+         margin: 1rem; 
+    } */
+
+    .todo-item .actions{
+        margin-left: -15%;
+    }
+
+}
